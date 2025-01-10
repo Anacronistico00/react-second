@@ -57,7 +57,7 @@ class ReservationForm extends Component {
 
           this.setState({
             reservation: {
-              initialState,
+              ...initialState,
             },
           });
         } else {

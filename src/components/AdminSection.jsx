@@ -23,6 +23,7 @@ class AdminSection extends Component {
   state = {
     reservations: [],
     isLoading: true,
+    isError: false,
   };
 
   getReservationsThenCatch = () => {
